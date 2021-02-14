@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-14T10:08:00 IST" name="Default suite" finished-at="2021-02-14T10:08:08 IST" duration-ms="8158">
+    <groups>
+    </groups>
+    <test started-at="2021-02-14T10:08:00 IST" name="Default test" finished-at="2021-02-14T10:08:08 IST" duration-ms="8158">
+      <class name="com.captialfloat.restassured.binid.JsonBinTest">
+        <test-method signature="createDataTest()[pri:1, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:00 IST" name="createDataTest" finished-at="2021-02-14T10:08:04 IST" duration-ms="3929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDataTest -->
+        <test-method signature="createDataByInvalidSecureKey()[pri:2, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:04 IST" name="createDataByInvalidSecureKey" finished-at="2021-02-14T10:08:04 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDataByInvalidSecureKey -->
+        <test-method signature="createDataWithoutSecretKey()[pri:3, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:04 IST" name="createDataWithoutSecretKey" finished-at="2021-02-14T10:08:05 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDataWithoutSecretKey -->
+        <test-method signature="getDataByIdTest()[pri:4, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:05 IST" name="getDataByIdTest" finished-at="2021-02-14T10:08:05 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataByIdTest -->
+        <test-method signature="getDataByWrongVesionZeroTest()[pri:5, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:05 IST" name="getDataByWrongVesionZeroTest" finished-at="2021-02-14T10:08:05 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataByWrongVesionZeroTest -->
+        <test-method signature="getDataByWrongBinId()[pri:6, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:05 IST" name="getDataByWrongBinId" finished-at="2021-02-14T10:08:06 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataByWrongBinId -->
+        <test-method signature="getDataByNagativeVesionTest()[pri:7, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:06 IST" name="getDataByNagativeVesionTest" finished-at="2021-02-14T10:08:06 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataByNagativeVesionTest -->
+        <test-method signature="updateDataByIdTest()[pri:8, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:06 IST" name="updateDataByIdTest" finished-at="2021-02-14T10:08:06 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDataByIdTest -->
+        <test-method signature="getDataByVesionOneTest()[pri:9, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:06 IST" name="getDataByVesionOneTest" finished-at="2021-02-14T10:08:07 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataByVesionOneTest -->
+        <test-method signature="withouScretKeyTest()[pri:10, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:07 IST" name="withouScretKeyTest" finished-at="2021-02-14T10:08:07 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withouScretKeyTest -->
+        <test-method signature="updateDataInvalidBinIdTest()[pri:11, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:07 IST" name="updateDataInvalidBinIdTest" finished-at="2021-02-14T10:08:07 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDataInvalidBinIdTest -->
+        <test-method signature="updateDataWithoutSecureKeyTest()[pri:12, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:07 IST" name="updateDataWithoutSecureKeyTest" finished-at="2021-02-14T10:08:08 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDataWithoutSecureKeyTest -->
+        <test-method signature="deleteDataByBinIdTest()[pri:13, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:08 IST" name="deleteDataByBinIdTest" finished-at="2021-02-14T10:08:08 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDataByBinIdTest -->
+        <test-method signature="deleteDataByInvalidBinIdTest()[pri:14, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:08 IST" name="deleteDataByInvalidBinIdTest" finished-at="2021-02-14T10:08:08 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDataByInvalidBinIdTest -->
+        <test-method signature="deleteDataWithoutSecretKeyTest()[pri:15, instance:com.captialfloat.restassured.binid.JsonBinTest@2bbf180e]" started-at="2021-02-14T10:08:08 IST" name="deleteDataWithoutSecretKeyTest" finished-at="2021-02-14T10:08:08 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDataWithoutSecretKeyTest -->
+      </class> <!-- com.captialfloat.restassured.binid.JsonBinTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
